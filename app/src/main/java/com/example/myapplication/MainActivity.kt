@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        clickButton = findViewById(R.id.clickButton)
-        clickButton.setOnClickListener {
-            Toast.makeText(applicationContext , "It's Samarth ", Toast.LENGTH_SHORT).show()
-        }
-
-
+//        clickButton = findViewById(R.id.clickButton)
+//        clickButton.setOnClickListener {
+//            Toast.makeText(applicationContext , "It's Samarth ", Toast.LENGTH_SHORT).show()
+//        }
+//
+        println("hello")
 
     }
 }
